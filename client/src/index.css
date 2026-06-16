@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+@theme{
+  --color-primary: #5044E5;
+}
+
+.reset-tw, .reset-tw *{
+  all: revert !important;
+}
+
+.reset-tw h1,
+.reset-tw h2,
+.reset-tw h3,
+.reset-tw h4,
+.reset-tw h5,
+.reset-tw h6 {
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+.reset-tw h1 { font-size: 1.5em; }
+.reset-tw h2 { font-size: 1.3em; }
+.reset-tw h3 { font-size: 1.15em; }
+
+.reset-tw p {
+  margin-bottom: 0.75em;
+  line-height: 1.7;
+}
+
+.reset-tw ul,
+.reset-tw ol {
+  padding-left: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+.reset-tw li {
+  margin-bottom: 0.35em;
+  line-height: 1.6;
+}
+
+.reset-tw strong {
+  font-weight: 600;
+}
+
+.reset-tw blockquote {
+  border-left: 3px solid #e2e8f0;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-bottom: 0.75em;
+  color: #64748b;
+  font-style: italic;
+}
+
+.reset-tw code {
+  background: #f1f5f9;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.reset-tw pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 0.75em;
+}
+
+.reset-tw pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.reset-tw table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0.75em;
+}
+
+.reset-tw th,
+.reset-tw td {
+  border: 1px solid #e2e8f0;
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+.reset-tw th {
+  background: #f8fafc;
+  font-weight: 600;
+}
+
+.cl-drawerRoot{
+  z-index: 10;
+}
